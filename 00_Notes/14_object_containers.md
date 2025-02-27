@@ -1,4 +1,4 @@
-# Here are the key takeaways from the "Object containers" video:
+# Summary
 
 **- Constant Variables:** Objects in JavaScript are often stored in constant variables using the `const` keyword, which means the object itself can't be reassigned, but its properties can be changed.
 

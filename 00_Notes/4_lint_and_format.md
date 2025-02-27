@@ -1,4 +1,4 @@
-## In the "Linting and formatting" video, here are the key takeaways:
+# Summary
 
 **- ESLint and Prettier:** These are tools that help you write clean and consistently formatted JavaScript code. ESLint acts like a spellchecker for your code, identifying errors and enforcing coding standards, while Prettier automatically formats your code to ensure consistency.
 

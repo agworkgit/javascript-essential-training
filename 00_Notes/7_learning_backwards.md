@@ -1,4 +1,4 @@
-# In the "Learning JavaScript backward" video, here are the key takeaways:
+# Summary
 
 **- Learning Approach:** The course starts with advanced topics like objects and methods before covering basics like variables and functions. This approach helps you see concepts in real-world contexts first.
 

@@ -1,4 +1,4 @@
-# Here are the key takeaways from the video "Tools for working with JavaScript":
+# Summary
 
 **- Modern Browser:** Install a modern browser like Chrome, Firefox, or Edge. Chrome is used throughout the course.
 

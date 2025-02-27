@@ -1,4 +1,4 @@
-# Here are the key takeaways from the "Object properties" video:
+# Summary
 
 **- Definition:** Object properties describe different aspects of an object using a name-value pair.
 

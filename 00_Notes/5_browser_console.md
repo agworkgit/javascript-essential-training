@@ -1,4 +1,4 @@
-## Here are the key takeaways from the video "Get to know the browser console":
+# Summary
 
 The browser console is a crucial tool for JavaScript developers, allowing interaction with JavaScript directly inside the browser.
 

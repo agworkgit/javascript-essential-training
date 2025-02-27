@@ -1,4 +1,4 @@
-# Here are the key takeaways from the "Modern JavaScript loading" video:
+# Summary
 
 **- Traditional Loading Issues:** Loading JavaScript traditionally can cause render-blocking issues, where the browser stops parsing HTML to fetch and execute JavaScript files, slowing down page load times.
 

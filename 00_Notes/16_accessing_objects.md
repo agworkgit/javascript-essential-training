@@ -1,4 +1,4 @@
-# Here are the key takeaways from the "Accessing objects" video:
+# Summary
 
 **- Accessing Objects:** You can access an object in JavaScript by simply calling it by its name.
 

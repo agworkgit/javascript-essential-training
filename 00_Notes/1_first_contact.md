@@ -1,4 +1,4 @@
-# Here are the key takeaways from the video "JavaScript: First contact":
+# Summary
 
 **JavaScript's Importance:** JavaScript is now the primary language for web development, used both in browsers and on servers.
 

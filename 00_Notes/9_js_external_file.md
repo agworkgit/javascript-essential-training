@@ -1,4 +1,4 @@
-# Here are the key takeaways from the "JavaScript as an external file" video:
+# Summary
 
 **- External JavaScript Files:** It's best practice to place JavaScript in separate files when you have a lot of script or need to apply it to multiple documents.
 

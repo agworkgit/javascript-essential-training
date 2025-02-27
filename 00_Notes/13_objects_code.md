@@ -1,4 +1,4 @@
-# Here are the key takeaways from the "JavaScript objects: The code version" video:
+# Summary
 
 **- Defining Objects:** JavaScript objects are collections of data and functionality, stored as properties and methods. They are defined using curly brackets {} and can contain various data types.
 

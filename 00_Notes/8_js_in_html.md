@@ -1,4 +1,4 @@
-# In the "JavaScript in an HTML document" video, here are the key takeaways:
+# Summary
 
 **- Inline and External JavaScript:** JavaScript can be included directly within an HTML document using the `<script>` tag or as an external file.
 

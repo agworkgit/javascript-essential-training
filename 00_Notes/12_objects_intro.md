@@ -1,4 +1,4 @@
-# Here are the key takeaways from the "Objects: A practical introduction" video:
+# Summary
 
 **- Object-Oriented Programming:** JavaScript is a prototype-based object-oriented programming language, meaning it uses objects as the core building blocks.
 

@@ -1,4 +1,4 @@
-# Here are the key takeaways from the "Accessing object properties" video:
+# Summary
 
 **- Dot Notation:** Preferred for accessing object properties due to its readability and simplicity. Example: `object.property`.
 

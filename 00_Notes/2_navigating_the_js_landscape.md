@@ -1,4 +1,4 @@
-# Here are the key takeaways from the video "Navigating the JS landscape":
+# Summary
 
 **JavaScript Ecosystem:** JavaScript encompasses various tools, frameworks, and versions like Vanilla JavaScript, ECMAScript, TypeScript, React, Vue, Angular, and Node.js.
 

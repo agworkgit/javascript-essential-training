@@ -1,4 +1,4 @@
-# Here are the key takeaways from the "JavaScript modules" video:
+# Summary
 
 **- Modularisation:** JavaScript modules allow you to break down large scripts into smaller, manageable files, which can then be imported and used in other files.
 

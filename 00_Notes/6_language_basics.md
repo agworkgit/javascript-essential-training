@@ -1,4 +1,4 @@
-# In the "JavaScript language basics" video, here are the key takeaways:
+# Summary
 
 **- Top-to-Bottom Writing:** Write your JavaScript code from top to bottom, defining variables, functions, and objects before using them to avoid issues.
 
