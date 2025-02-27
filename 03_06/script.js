@@ -22,3 +22,7 @@ const backpack = {
 };
 
 console.log("The backpack object:", backpack);
+console.log("The backpack volume is:", backpack.volume); // dot notation
+console.log("The backpack strap length left is:", backpack.strapLength.left);
+
+console.log("The backpack colour is:", backpack["color"]); // sq bracket notation
