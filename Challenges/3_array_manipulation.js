@@ -21,19 +21,14 @@ const processArray = deskArray => {
     let newDeskArr = [...deskArray];
 
     // Your code goes here
-    newDeskArr.pop();
-    newDeskArr.sort();
+    newDeskArr.pop(); // correct
+    newDeskArr.sort(); // correct
+    newDeskArr.unshift(newDeskArr.pop());
 
-    let lastToFirst = function (arr) {
-        let last = arr.pop();
-        arr.unshift(last);
-    }
-    lastToFirst(newDeskArr);
-
-    newDeskArr.find((item) => item === 'USB drive');
-    let found = newDeskArr.splice(1, 1).join('');
-    newDeskArr.push(found);
-    newDeskArr.splice(3, 1);
+    let usbIndex = newDeskArr.indexOf('USB drive');
+    newDeskArr.push(newDeskArr.splice(usbIndex, 1).join(''));
+    let laptopIndex = newDeskArr.indexOf('laptop');
+    newDeskArr.splice(laptopIndex, 1);
 
     // Your code ends here
 
