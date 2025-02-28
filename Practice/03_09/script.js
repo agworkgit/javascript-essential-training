@@ -16,11 +16,24 @@ const backpack = {
     left: 26,
     right: 26,
   },
+  badges: 0,
+
   toggleLid: function (lidStatus) {
     this.lidOpen = lidStatus;
   },
+
   newStrapLength: function (lengthLeft, lengthRight) {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   },
+
+  unzipPocket: function (pocketStatus) {
+    this.pocketIsOpen = pocketStatus;
+  },
+
+  addBadge: function (numberOfBadges) {
+    this.badges = numberOfBadges;
+  }
 };
+
+console.log("Object with new methods:", backpack);
