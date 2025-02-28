@@ -39,3 +39,5 @@ const everydayPack = new Backpack(
   26,
   false
 );
+
+console.log("This is the everydayPack object:", everydayPack);

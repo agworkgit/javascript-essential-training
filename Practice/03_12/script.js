@@ -1,8 +1,17 @@
-/**
- * Practice: Making classes and objects
- *
- * - Find a type of object you have more than one of in your house (eg. clothing, writing tools, etc).
- * - Create a class describing this object type - its properties and methods.
- * - Create several objects using the class.
- * - Test the objecs by calling their properties and using their methods in the console.
- */
+import Trouser from "./Trouser.js";
+
+let jeans = new Trouser(
+    30,
+    30,
+    "cotton",
+    "blue",
+    true
+);
+
+console.log("This the first Trouser object:", jeans);
+console.log(jeans.zipperOpen);
+jeans.openZipper(false);
+console.log("This the first Trouser object:", jeans);
+console.log(jeans.zipperOpen);
+
+// Class object - properties and methods are not directly modifiable from DevTools

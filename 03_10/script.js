@@ -16,3 +16,17 @@ const everydayPack = new Backpack(
 
 console.log("The everydayPack object:", everydayPack);
 console.log("The pocketNum value:", everydayPack.pocketNum);
+
+const travellingPack = new Backpack(
+  "Travelling Backpack",
+  50,
+  "yellow",
+  15,
+  25,
+  25,
+  false
+);
+
+console.log("The travellingPack object:", travellingPack);
+console.log("The colour value:", travellingPack.color);
+
