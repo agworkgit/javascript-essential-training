@@ -22,3 +22,11 @@ body {
   height: 6rem;
   background-color: hsl(0, 0%, 90%);
 }
+
+.grid-hover {
+  border: 5px solid rgb(99, 99, 99);
+}
+
+.background-colour {
+  background-color: black;
+}
