@@ -6,13 +6,15 @@
  * Copyright (c) 2015-2018 Sandra Gonzales
  */
 
-import React from "react";
+import React from "react"; // import from another component
 import PropTypes from "prop-types";
 
-const imgWithClick = { cursor: "pointer" };
+const imgWithClick = { cursor: "pointer" }; // in React devs prefer to use objects for everything
 
+// main exported module below
+// a React component is similar to a JS class
 const Photo = ({
-  index,
+  index,      // a list of all parameters
   onClick,
   photo,
   margin,
@@ -20,7 +22,7 @@ const Photo = ({
   top,
   left,
   key,
-}) => {
+}) => { // arrow function that captures the properties to do something on them
   const imgStyle = { margin: margin, display: "block" };
   if (direction === "column") {
     imgStyle.position = "absolute";
@@ -28,11 +30,11 @@ const Photo = ({
     imgStyle.top = top;
   }
 
-  const handleClick = (event) => {
+  const handleClick = (event) => { // event listener
     onClick(event, { photo, index });
   };
 
-  return (
+  return ( // then the component returns content, written in JSX
     <img
       key={key}
       style={onClick ? { ...imgStyle, ...imgWithClick } : imgStyle}
@@ -42,7 +44,7 @@ const Photo = ({
   );
 };
 
-export const photoPropType = PropTypes.shape({
+export const photoPropType = PropTypes.shape({ // a set of rules for what the different properties in this component must look like 
   key: PropTypes.string,
   src: PropTypes.string.isRequired,
   width: PropTypes.number.isRequired,
@@ -53,7 +55,7 @@ export const photoPropType = PropTypes.shape({
   sizes: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
 });
 
-Photo.propTypes = {
+Photo.propTypes = { // standard object, observe that the methods are using arrow functions here
   index: PropTypes.number.isRequired,
   onClick: PropTypes.func,
   photo: photoPropType.isRequired,
@@ -75,4 +77,4 @@ Photo.propTypes = {
   direction: PropTypes.string,
 };
 
-export default Photo;
+export default Photo; // calling this file you get the Photo component and you can make an instance of it
