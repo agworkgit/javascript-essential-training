@@ -19,6 +19,9 @@ const greenPack = {
     // (function () {
     //   console.log("this.volume in nested function:", this.volume);
     // })();
+    (() => {
+      console.log("this.volume in nested function:", this.volume);
+    })();
   },
 };
 
