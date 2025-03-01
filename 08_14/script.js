@@ -31,7 +31,7 @@ const nestedObjects = {
     type: "tool",
     weight: 40,
   },
-  item03: {
+  item06: {
     name: "water bottle",
     type: "equipment",
     weight: 1300,
